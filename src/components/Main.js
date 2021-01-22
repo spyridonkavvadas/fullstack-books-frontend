@@ -12,7 +12,7 @@ export default function Main() {
   useEffect(() => {
        axios
       .get(
-        `http://localhost:5000/books`
+        `https://fullstack-books-app.herokuapp.com/books`
       )
       .then((res) => {
         setContentfuls(res.data.data)
