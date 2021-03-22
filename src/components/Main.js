@@ -24,7 +24,7 @@ export default function Main() {
 
   return (
     <>
-      <Header />
+    <Header />
       <div className="main-container">
           {/* <div className="logo">
             <b>
